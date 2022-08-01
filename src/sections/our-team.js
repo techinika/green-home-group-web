@@ -19,8 +19,8 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
+    name: 'Butera Fausta',
+    designation: 'CEO',
     socialLinks: [
       {
         name: 'twitter',
@@ -67,99 +67,7 @@ const data = [
         link: 'http://github.com',
       },
     ],
-  },
-  {
-    id: 4,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 5,
-    avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 6,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 7,
-    avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-    ],
-  },
-  {
-    id: 8,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
+  }
 ];
 
 const OurTeam = () => {

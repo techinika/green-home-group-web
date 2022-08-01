@@ -35,8 +35,8 @@ const Features = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Grow your startup with our Service"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          title="Our product is the best and offers these features"
+          description="It's in your hands to milk your cow in easy way."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

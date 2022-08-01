@@ -15,8 +15,8 @@ export default [
     path: 'why-us',
     label: 'Why Us',
   },
-  {
-    path: 'login',
-    label: 'Login',
-  },
+  // {
+  //   path: 'login',
+  //   label: 'Login',
+  // },
 ];

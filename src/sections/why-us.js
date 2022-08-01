@@ -80,7 +80,7 @@ const WhyUs = () => {
                   ))}
                 </Box>
                 <Box sx={styles.learnMore}>
-                  <LearnMore path={item.moreLink} label="Explore more" />
+                  {/* <LearnMore path={item.moreLink} label="Explore more" /> */}
                 </Box>
               </Box>
               <Box sx={styles.illustration}>

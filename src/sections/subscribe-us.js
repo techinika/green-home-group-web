@@ -1,23 +1,24 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { useState, useCallback } from 'react';
-import { jsx, Box, Container, Button, Flex, Checkbox, Label } from 'theme-ui';
-import { rgba } from 'polished';
+import { jsx, Box, Container, Button, Flex, Label } from 'theme-ui';
+import { grayscale, rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import Input from 'components/input';
+import Textarea from 'components/textarea';
 import illustration from 'assets/images/subscribe-bg.png';
 
 const SubscribeUs = () => {
-  const [checked, setChecked] = useState(false);
+  // const [checked, setChecked] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('submitted.');
   };
 
-  const handleCheckbox = useCallback(() => {
-    setChecked(!checked);
-  }, [checked]);
+  // const handleCheckbox = useCallback(() => {
+  //   setChecked(!checked);
+  // }, [checked]);
 
   return (
     <Box as="section" sx={styles.section} variant="section.subscribe">
@@ -25,10 +26,21 @@ const SubscribeUs = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Like our service? Subscribe us"
-            description="We have more than thousand of creative entrepreneurs and stat joining our business"
+            title="Do you like our Product?"
+            description="We will be happy to hear from you. Send us a message and order your own, we will get back to you as soon as possible."
           />
           <Box as="form" sx={styles.subscribe} onSubmit={handleSubmit}>
+            <Flex sx={styles.inputGroup}>
+              <Label htmlFor="name" variant="styles.srOnly">
+                Email
+              </Label>
+              <Input
+                id="name"
+                type="text"
+                className="email-input"
+                placeholder="Enter Your Name"
+              />
+            </Flex>
             <Flex sx={styles.inputGroup}>
               <Label htmlFor="email" variant="styles.srOnly">
                 Email
@@ -39,9 +51,17 @@ const SubscribeUs = () => {
                 className="email-input"
                 placeholder="Enter Email address"
               />
-              <Button variant="secondary">Subscribe</Button>
             </Flex>
-            <Box sx={styles.checkbox}>
+            <Flex sx={styles.inputGroup}>
+              <Label htmlFor="email" variant="styles.srOnly">
+                Message
+              </Label>
+              <Textarea id="message" placeholder="Enter Your Message" className="email-input" rows={8} />
+            </Flex>
+            <Flex sx={styles.inputGroup}>
+              <Button variant="secondary">Send Message</Button>
+            </Flex>
+            {/* <Box sx={styles.checkbox}>
               <Label htmlFor="no_spam" className={checked ? 'checked' : ''}>
                 <Checkbox
                   id="no_spam"
@@ -50,13 +70,8 @@ const SubscribeUs = () => {
                 />
                 Don’t provide any promotional message.
               </Label>
-              {/* <Checkbox
-                id="no_spam"
-                checked={checked}
-                onChange={handleCheckbox}
-                label="Don’t provide any promotional message."
-              /> */}
-            </Box>
+              
+            </Box> */}
           </Box>
         </Box>
       </Container>
@@ -105,6 +120,7 @@ const styles = {
     '.email-input': {
       mr: [0, null, null, '15px'],
       minHeight: ['50px', '50px', '60px'],
+      mb: "10px"
     },
     button: {
       minHeight: ['50px', '50px', '60px'],
