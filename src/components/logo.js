@@ -8,7 +8,7 @@ export default function Logo({ isSticky, footer, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
       {/* <LogoSvg /> */}
-      PROJECT
+      <h1>GREEN<span className={{color: 'green', fontWeight: 'bold'}}>HOME</span></h1>
     </Link>
   );
 }
