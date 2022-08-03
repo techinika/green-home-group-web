@@ -19,7 +19,7 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Butera Fausta',
+    name: 'TUYISHIME DAVID',
     designation: 'CEO',
     socialLinks: [
       {
@@ -39,8 +39,8 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
+    name: 'TUMUKUNDE BUTERA Fausta',
+    designation: 'Communication Specialist',
     socialLinks: [
       {
         name: 'twitter',
@@ -55,7 +55,7 @@ const data = [
   {
     id: 3,
     avatar: avatar3,
-    name: 'Ariyanna Hicks',
+    name: 'TUYIZERE Emmanuel',
     designation: 'Experience Designer',
     socialLinks: [
       {
