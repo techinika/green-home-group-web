@@ -16,13 +16,13 @@ export default function Footer() {
             <Box sx={styles.logo}>
               <Logo />
             </Box>
-            <Box sx={styles.terms}>
+            {/* <Box sx={styles.terms}>
               <Link path="#!">Terms of use</Link>
               <Text as="span">|</Text>
               <Link path="#!">Privacy</Link>
-            </Box>
+            </Box> */}
             <Text as="p" sx={styles.copyright}>
-              &copy; Product {new Date().getFullYear()}, website made by <NavLink path="https://techinika.com/abo-turibo" label="Techinika" />
+              &copy; Green Home Group {new Date().getFullYear()}, Powered by <NavLink path="https://techinika.com/" label="Techinika" />
             </Text>
           </Box>
           {menuItems.map(({ id, title, items }) => (

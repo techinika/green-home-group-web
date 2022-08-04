@@ -2,12 +2,13 @@
 /** @jsx jsx */
 import { jsx, Flex, Box, Image, Text, Heading, Link } from 'theme-ui';
 import { FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
+import { position } from 'polished';
 
 const TeamMember = ({ member }) => {
   return (
     <Box sx={styles.section}>
       <Flex as="figure" sx={styles.avatar}>
-        <Image src={member?.avatar} alt={member?.name} />
+        <Image src={member?.avatar} alt={member?.name}/>
       </Flex>
       <Box sx={styles.about}>
         <Heading as="h3">{member?.name}</Heading>

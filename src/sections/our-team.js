@@ -7,10 +7,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
 import TeamMember from 'components/cards/team-member';
 
-import avatar1 from 'assets/images/team/member1.png';
-import avatar2 from 'assets/images/team/member2.png';
-import avatar3 from 'assets/images/team/member3.png';
-import avatar4 from 'assets/images/team/member4.png';
+// import avatar1 from 'assets/images/team/member1.png';
+import avatar2 from 'assets/images/team/fausta.png';
+import avatar3 from 'assets/images/team/emmanuel.png';
 import arrowRight from 'assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
@@ -18,7 +17,7 @@ SwiperCore.use([Navigation, Pagination]);
 const data = [
   {
     id: 1,
-    avatar: avatar1,
+    avatar: avatar2,
     name: 'TUYISHIME DAVID',
     designation: 'CEO',
     socialLinks: [
@@ -130,7 +129,7 @@ const OurTeam = () => {
         <SectionHeading
           sx={styles.heading}
           title="Meet our superheros"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          description="The best tem to change your dream into a green reality. Do you have a home you want us to transform? This is your chance to contact us!"
         />
       </Container>
       <Box
