@@ -48,10 +48,6 @@ export const menuItems = [
       },
       {
         path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
         label: 'Store Hours',
       },
     ],
