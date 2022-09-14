@@ -16,8 +16,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Home - Green Home Group"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="Green Home Group"
+          description="Green Home Group Rwanda, Manufacturer of best commodities to make your home green"
         />
         <Banner />
         <Features />
