@@ -10,9 +10,14 @@ import tabImage1 from 'assets/images/tab-illustration-1.png';
 const data = [
   {
     id: 1,
-    tabTitle: 'Why you choose our service?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: 'Why you choose our briquettes?',
+    title: `We want to provide safe and clean energy.`,
+    description: `We come into existence because we are well organized team with ability and high
+    competence in this sector as we learnt that knowledge from IPRCs and we even
+    collected different research about this problem until we come up with better solution for
+    Rwandan our product fulfills the requirements on the market and rules and regulations
+    related to human health organization such us smokeless and nontoxic biomass fuels and
+    we get fuels without destructing our natures.`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [
@@ -35,21 +40,7 @@ const data = [
       'HSAs and FSAs',
       'Commuter benefits',
     ],
-  },
-  {
-    id: 3,
-    tabTitle: 'What’s our role model plan?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
-    image: tabImage1,
-    list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
-    ],
-  },
+  }
 ];
 
 const WhyUs = () => {

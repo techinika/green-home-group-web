@@ -12,12 +12,12 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Treat your cow with respect now! It deserves it."
-            description="You can now use technology to milk your cow."
+            title="Every year in Rwanda more than 3 million of people suffer from respiratory diseases..."
+            description="As a solution, we developed briquette and briquette making machine to be used in cooking."
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Get Started</Button>
+              <Button>Order Yours</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>

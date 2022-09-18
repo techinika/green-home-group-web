@@ -12,17 +12,20 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'Marketing & advertising',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Flexibility',
+    description: `our
+    briquettes will be used in cocking
+    In both rural and urban region as it can be used, in all available kinds of stoves, chimneys, and chicken heating furniture.`,
+  },
+  {
+    id: 2,
+    icon: icon2,
+    title: 'Long lifetime',
+    description: `Our briquettes
+    longer up to 2 hours and they are smokeless as we firstly carbonize the waste products before crashing them and compress them into briquettes.`,
   },
   {
     id: 3,
-    icon: icon2,
-    title: 'Ultimate development',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 4,
     icon: icon3,
     title: 'Business Enterprise',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
@@ -36,7 +39,7 @@ const Features = () => {
         <SectionHeading
           sx={styles.heading}
           title="Our product is the best and offers these features"
-          description="It's in your hands to milk your cow in easy way."
+          description=""
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (
