@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
-import illustration from 'assets/images/cow.jpg';
+import illustration from 'assets/images/machine.jpg';
 
 const Banner = () => {
   return (
@@ -12,12 +12,12 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Every year in Rwanda more than 3 million of people suffer from respiratory diseases..."
+            title="More than 3 million of people suffer from respiratory diseases..."
             description="As a solution, we developed briquette and briquette making machine to be used in cooking."
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Order Yours</Button>
+              <Button>Buy NOW</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>

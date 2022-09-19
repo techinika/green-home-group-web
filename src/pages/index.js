@@ -7,6 +7,8 @@ import Features from 'sections/features';
 import OurTeam from 'sections/our-team';
 import WhyUs from 'sections/why-us';
 import SubscribeUs from 'sections/subscribe-us';
+import Blog from 'sections/blog';
+import { Listing } from 'sections/listing';
 
 export default function IndexPage() {
   return (
@@ -20,6 +22,8 @@ export default function IndexPage() {
         <Features />
         <OurTeam />
         <WhyUs />
+        <Listing />
+        {/* <Blog/> */}
         <SubscribeUs />
       </Layout>
     </ThemeProvider>

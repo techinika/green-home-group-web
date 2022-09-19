@@ -1,14 +1,14 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
+import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import LogoSvg from 'components/icons/logo';
+import logoImage from 'assets/images/logos/green home.png';
 
 export default function Logo({ isSticky, footer, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
-      {/* <LogoSvg /> */}
-      <h1>GREEN<span className={{color: 'green', fontWeight: 'bold'}}>HOME</span></h1>
+      <Image src={logoImage} sx={styles.img} alt="Green Home Group logo"/>
+      <h1>GHG</h1>
     </Link>
   );
 }
@@ -22,4 +22,7 @@ const styles = {
       width: [128, null, '100%'],
     },
   },
+  img: {
+    width: '50px'
+  }
 };

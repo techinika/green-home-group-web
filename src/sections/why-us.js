@@ -5,7 +5,7 @@ import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
-import tabImage1 from 'assets/images/tab-illustration-1.png';
+import tabImage1 from 'assets/images/clean energy.png';
 
 const data = [
   {
